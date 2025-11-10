@@ -1,20 +1,28 @@
 # 🛒 Boutik Entèlijan an Kreyòl
 
-Yon boutik entèlijan ki vann pwodwi manje an liy ak yon chatbot ki pale Kreyòl Ayisyen.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app/)
 
-## ✨ Fonksyonalite
+Yon boutik entèlijan ki vann pwodwi manje an liy ak yon chatbot ki pale Kreyòl Ayisyen, ki kapab rekòmande pwodwi selon santiman kliyan yo.
 
-- 💬 Chatbot ki reponn an Kreyòl
-- 🎯 Rekòmandasyon pwodwi selon santiman kliyan
-- 🛍️ Katalog pwodwi ak pri
-- 📞 Enfòmasyon kontak
-- 🔍 Rechèch pwodwi
+## ✨ Karakteristik
+
+- 💬 **Chatbot an Kreyòl** - Konvèsasyon natirèl an lang matènèl
+- 🎯 **Rekòmandasyon Sentiman** - Sijere pwodwi selon santiman kliyan
+- 🛍️ **Katalog Entèaktif** - Chèche ak filtre pwodwi fasilman
+- 📊 **Dashboard En Temps Reel** - Statistik boutik ak disponiblite
+- 📱 **Responsive Design** - Fonksyonèl sou tout aparèy
 
 ## 🚀 Komanse
 
 ### Enstalasyon Lokal
 
-1. Klone repozitwa a:
 ```bash
-git clone https://github.com/username/boutik-streamlit.git
-cd boutik-streamlit
+# Klone repozitwa a
+git clone https://github.com/username/boutik-entelijan-kreyol.git
+cd boutik-entelijan-kreyol
+
+# Enstale depandans yo
+pip install -r requirements.txt
+
+# Kouri aplikasyon an
+streamlit run streamlit_app.py
