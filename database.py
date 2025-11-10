@@ -1,7 +1,13 @@
 import sqlite3
 import datetime
+import os
 
-class Database:
+# Itilize yon chemen relatif pou database
+DB_PATH = "boutique.db"
+
+def init_database():
+    conn = sqlite3.connect(DB_PATH, check_same_thread=False)
+    # ... rès kòd laclass Database:
     def __init__(self, db_name="boutique.db"):
         self.db_name = db_name
         self.init_database()
