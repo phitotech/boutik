@@ -57,9 +57,9 @@ def init_database():
     ''', produits)
     
     contacts = [
-        ('Jean Pierre', 'Responsab Vant', '+50912345678', 'jean@boutique.ht'),
-        ('Marie Claude', 'Sèvis Kliyan', '+50987654321', 'marie@boutique.ht'),
-        ('Pierre Louis', 'Manager', '+50955556666', 'pierre@boutique.ht')
+        ('Neize Sadrac', 'Responsab Vant', '+50912345678', 'nsadrac@boutique.ht'),
+        ('Phito Dorjuste, 'Sèvis Kliyan', '+509'8785674', 'dphito@boutique.ht'),
+        ('Harold Narcisse', 'Manager', '+50955556666', 'hnarcisse@boutique.ht')
     ]
     
     cursor.executemany('''
